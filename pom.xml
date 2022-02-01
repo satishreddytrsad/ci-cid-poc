@@ -125,7 +125,7 @@
 		<repository>
 			<id>anypoint-exchange</id>
 			<name>Anypoint Exchange</name>
-			<url>https://maven.anypoint.mulesoft.com/api/v1/organizations/316675ed7ddc4257a90545ba41e536c7/maven</url>
+			<url>https://maven.anypoint.mulesoft.com/api/v1/organizations/9f821082-018e-4bf5-9a0f-358cfa6387e8/maven</url>
 			<layout>default</layout>
 		</repository>
 		<repository>
