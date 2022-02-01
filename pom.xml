@@ -33,15 +33,15 @@
 				<configuration>
 					<cloudHubDeployment>
 						<uri>https://anypoint.mulesoft.com</uri>
-						<muleVersion>${mule.version}</muleVersion>
+						<muleVersion>4.3.0</muleVersion>
 						<!-- Deploy User Parameter -->
-						<username>${anypoint.username}</username>
-						<password>${anypoint.password}</password>
+						<username>734904</username>
+						<password>HAnvitha-12345</password>
 						<!-- Environment Parameter -->
-						<environment>${cloudhub.environment}</environment>
-						<applicationName>${cloudhub.app}</applicationName>
-						<businessGroup>${cloudhub.bg}</businessGroup>
-						<workerType>${cloudhub.worker}</workerType>
+						<environment>Sandbox</environment>
+						<applicationName>ci-cid-example</applicationName>
+						<businessGroup>ToyBox</businessGroup>
+						<workerType>Micro</workerType>
 						<objectStoreV2>true</objectStoreV2>
 					</cloudHubDeployment>
 				</configuration>
@@ -122,12 +122,12 @@
 	</dependencies>
 
 	<repositories>
-		<repository>
-			<id>anypoint-exchange</id>
-			<name>Anypoint Exchange</name>
-			<url>https://maven.anypoint.mulesoft.com/api/v2/maven</url>
-			<layout>default</layout>
-		</repository>
+		 <repository>
+      <id>Repository</id>
+      <name>Corporate Repository</name>
+      <url>https://maven.gov.anypoint.mulesoft.com/api/v2/organizations/9f821082-018e-4bf5-9a0f-358cfa6387e8/maven</url>
+      <layout>default</layout>
+    </repository>
 		<repository>
 			<id>mulesoft-releases</id>
 			<name>MuleSoft Releases Repository</name>
